@@ -1,4 +1,15 @@
 /* Main head */
+.header{
+    background-color: #fff8f3;
+    background-image: url(../flower-shop-assignment/Flower-Asset/pngwing\ 10.png);
+}
+.banner{
+    /* padding: 30px 30px 0px 150px; */
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -19,5 +30,5 @@ font-weight: 800;
 line-height: normal;
 }
 .shop-now{
-    
+
 }
