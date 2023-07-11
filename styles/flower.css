@@ -2,13 +2,19 @@
 .header{
     background-color: #fff8f3;
     background-image: url(../flower-shop-assignment/Flower-Asset/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
 }
 .banner{
-    /* padding: 30px 30px 0px 150px; */
+    padding: 30px 30px 0px 150px;
     margin: 0px 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -19,16 +25,39 @@
 /* Main header */
 .flower-title{
     display: flex;
-width: 708px;
-flex-direction: column;
+    width: 708px;
+
 flex-shrink: 0;
     color: #272727;
-font-family: Lato;
+
 font-size: 80px;
-font-style: normal;
+
 font-weight: 800;
 line-height: normal;
+margin-left: 10px;
 }
 .shop-now{
-
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
+
+.banner-content {
+    max-width: 500px;
+}
+.pro.pic{
+    width: 635px;
+height: 800px;
+flex-shrink: 0;
+}
+.paragraph{
+    display: flex;
+    text-align: center;
+font-size: 18px;
+}
+
+
